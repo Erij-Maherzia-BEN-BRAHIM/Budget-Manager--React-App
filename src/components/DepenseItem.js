@@ -5,7 +5,6 @@ import DepenseDate from "./DepenseDate";
 export default function DepenseItem(props) {
   let title = props.oneDepense.title;
   let amount = props.oneDepense.amount;
-  console.log(typeof(props.oneDepense.date));
 
   return (
 

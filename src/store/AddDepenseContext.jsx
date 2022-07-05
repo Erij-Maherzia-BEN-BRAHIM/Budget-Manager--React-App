@@ -13,7 +13,7 @@ function AddDepenseContextProvider(props) {
   }
   const context={
     tabDepenses: tabDep,
-    ajoutNewDepense:ajoutNewDepense,
+    ajoutNewDepense:ajoutNewDepense
   }
   return(
     <addCtx.Provider value={context}>
